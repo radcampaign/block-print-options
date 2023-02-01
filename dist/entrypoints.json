@@ -1,0 +1,18 @@
+{
+  "block-print-options": {
+    "css": [
+      "css/block-print-options.css"
+    ],
+    "js": [
+      "js/block-print-options.js"
+    ],
+    "dependencies": [
+      "wp-i18n",
+      "wp-hooks",
+      "wp-element",
+      "wp-block-editor",
+      "wp-compose",
+      "wp-components"
+    ]
+  }
+}

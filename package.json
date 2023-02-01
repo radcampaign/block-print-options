@@ -1,0 +1,24 @@
+
+{
+  "name": "block-print-options",
+  "version": "1.0.0",
+  "author": "Rad Campaign",
+  "scripts" : {
+    "build": "bud build",
+    "dev": "bud dev"
+  },
+  "dependencies": {
+    "@roots/wordpress-hmr": "6.7.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-wp-i18n": "~0.5.0",
+    "grunt-wp-readme-to-markdown": "~1.0.0",
+    "@playwright/test": "^1.26.0",
+    "@roots/bud": "6.7.1",
+    "@roots/bud-preset-wordpress": "6.7.1"
+  },
+  "browserslist": [
+    "extends @roots/browserslist-config"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "radcampaign/block-print-options",
+  "type": "wordpress-plugin",
+  "description": "A WordPress plugin to enable hiding blocks from printing",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Rad Campaign",
+      "email": "info@radcampaign.com",
+      "homepage": "https://radcampaign.com",
+      "role": "Developer"
+    }
+  ],
+  "homepage": "https://github.com/radcampaign/block-print-options"
+}
