@@ -1,4 +1,5 @@
 {
   "block-print-options.css": "css/block-print-options.css",
-  "block-print-options.js": "js/block-print-options.js"
+  "block-print-options.js": "js/block-print-options.js",
+  "block-print-options-editor.css": "css/block-print-options-editor.css"
 }

@@ -1,6 +1,11 @@
 # Block Print Options
 
-This WordPress plugin provides print options for Gutenberg blocks. The plugin provides a toggle in the Advanced panel of a block's settings to hide the block from print.
+This WordPress plugin provides print options for Gutenberg blocks. The plugin provides toggles in the Advanced panel of a block's settings to:
+
+- **Hide from print** — hide the block when printing (`hide-from-print`)
+- **Show only on print** — hide the block on screen and show it when printing (`show-only-on-print`)
+
+The two options are mutually exclusive.
 
 ## Requirements
 
@@ -12,7 +17,9 @@ You can install via composer `composer require radcampaign/block-print-options` 
 
 ## Usage
 
-When you toggle the print setting in the advanced panel, the plugin adds or removes a `hide-from-print` class to the block. The styles included with this plugin are not intended to be greedy, so if your theme styles set a display property on blocks, you may need to declare your own styles for the `hide-from-print` class to ensure it overrides other display properties.
+When you toggle a print setting in the advanced panel, the plugin adds or removes the corresponding class on the block. The styles included with this plugin are not intended to be greedy, so if your theme styles set a display property on blocks, you may need to declare your own styles for `hide-from-print` / `show-only-on-print` to ensure they override other display properties.
+
+In the editor, blocks with `show-only-on-print` get a dashed orange outline so authors can see them while editing (they remain visible in the editor; the screen hide only applies on the frontend).
 
 ## Bug Reports
 
