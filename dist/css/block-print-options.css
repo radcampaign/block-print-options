@@ -1,1 +1,1 @@
-@media print{.hide-from-print{display:none}}
+@media screen{.show-only-on-print{display:none}}@media print{.hide-from-print{display:none}}

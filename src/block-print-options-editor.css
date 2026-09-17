@@ -1,0 +1,9 @@
+.show-only-on-print {
+	outline: 3px dashed #f26522;
+	outline-offset: 6px;
+}
+
+.hide-from-print {
+	outline: 3px dashed #009FFD;
+	outline-offset: 6px;
+}

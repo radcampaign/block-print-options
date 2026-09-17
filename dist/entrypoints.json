@@ -14,5 +14,11 @@
       "wp-compose",
       "wp-components"
     ]
+  },
+  "block-print-options-editor": {
+    "css": [
+      "css/block-print-options-editor.css"
+    ],
+    "dependencies": []
   }
 }
